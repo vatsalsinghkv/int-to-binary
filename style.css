@@ -1,0 +1,76 @@
+.CC {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+body {
+    margin: 0 10%;
+    padding: 0; 
+
+    height:  100vh;
+    font-family: 'Roboto';
+    text-align: center;
+
+    background-color: #fff;
+}
+
+h1 {
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: #4d4d4d;
+}
+
+.container {
+    padding: 25px 5%;
+    width: 100%;
+}
+
+h4 {
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+span {
+    border-bottom: 2px solid rgb(2, 190, 17);
+    padding: 3px 10px;
+    margin-bottom: 0;
+}
+
+form {
+    margin: 10px 0;
+}
+
+#printBinary {
+    display: none;
+}
+
+input[type='number'] {
+    font-size: 16px;
+    width: 50%;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+
+input[type='button'] {
+    font-size: 16px;
+    font-weight: bold;
+
+    background-color: rgb(2, 190, 17);
+    color: white;
+
+    border: none;
+
+    padding: 7px 10px;
+    width: 30%;
+
+    transition: all .3s ;
+}
+
+input[type='button']:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(10, 150, 21);
+}
+
